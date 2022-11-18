@@ -21,7 +21,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6311608401680389613, guid: 26a69525e988caa43b553888ebe658cb, type: 3}
       propertyPath: speed
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6311608401680389613, guid: 26a69525e988caa43b553888ebe658cb, type: 3}
       propertyPath: isChasing

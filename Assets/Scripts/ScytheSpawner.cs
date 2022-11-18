@@ -24,10 +24,10 @@ public class ScytheSpawner : BaseWeapon
                 Quaternion rotation = Quaternion.Euler(0, 0, randomAngle);
                 //Instantiate(scythePrefab, transform.position, rotation);
 
-                GameObject scythe = scythePool.Get(transform.position, rotation);
-                //scythe.transform.position = transform.position;
-                //scythe.transform.rotation = rotation;
-                //scythe.SetActive(true);
+                GameObject scythe = scythePool.Get();
+                scythe.transform.position = transform.position;
+                scythe.transform.rotation = rotation;
+                scythe.SetActive(true);
             }
         }
     }
